@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    body {
+        background-image: url("dark-wood.jpg");
+        background-size: 100% auto;
+    }
+
+    #header img {
+
+        height: 150px;
+        width: 80%;
+        margin-left: 100px;
+    }
+
+    #header {
+        display: grid;
+        height: 134px;
+        width: 1001px;
+        margin-left: 100px;
+        ;
+    }
+
+    .home {
+        background-color: thistle;
+        margin-left: 200px;
+        height: 30px;
+        width: 801px;
+
+    }
+
+    .images {
+        background-color: wheat;
+        margin-left: 200px;
+        height: 600px;
+        width: 800px;
+        display: grid;
+        flex-direction: column;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+
+    .footer {
+        background-color: gray;
+        margin-left: 200px;
+        width: 801px;
+        
+    }
+
+
+    nav li {
+        display: inline;
+        margin-right: 40px;
+
+    }
+
+    nav li a {
+        color: white;
+    }
+
+    a {
+        text-decoration: none;
+    }
+</style>
+</body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <div id="header">
+            <img src="header.jpg" alt="">
+        </div>
+        <div class="home">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#classes">Classes</a></li>
+                    <li><a href="#catering">Catering</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+            </nav>
+
+        </div>
+        <div class="images">
+            <div class="bokchoi">
+                <img src="bok-choi.jpg" alt="" style="margin: 11px;">
+                <figcaption style="margin:11px;">Bok Choi </figcaption>
+            </div>
+            <div class="japanese">
+                <h1>Japanese Vegetarian</h1>
+                <h2>Five Week Course in London</h2>
+                <p>A five week introduction to traditional Japanese vegetarian meals, teaching you a selection of rice
+                    and noodle dishes.</p>
+            </div>
+            <div class="popular">
+                <h2>Popular Recipes</h2>
+                <h3><a href="Yakitori">Yakitori(grilled chicken)</a></h3>
+                <h3><a href="Tsukune">Tsukne(mined chicken patties)</a></h3>
+                <h3><a href="okono">Okonomiyaki(savory pancakes)</a></h3>
+                <h3><a href="mizut">Mizutaki(chicken stew</a></h3>
+            </div>
+            <div class="teriyakisauce">
+                <img src="teriyaki.jpg" alt="" style="margin:11px;">
+                <figcaption style="margin:11px;">Teriyaki Sauce</figcaption>
+            </div>
+            <div class="sauces">
+                <h1>Sauces Master Class</h1>
+                <h2>One day Workshop</h2>
+                <p>
+                    An intensive one-day course looking at how to create the most delicious sauces for use in a range of Japanese cookery.
+                   </p>
+            </div>
+            <div>
+                <h1>Contact</h1>
+                <h4>YOKO'S KITCHEN
+                    <br>
+                    Younus College of Engineering,<br> pallimukku ,Vadakkevila P O Kollam-691020
+                </h4>
+            </div>
+        </div>
+        <div class="footer">
+            <b>
+                &copy;2011 YOKO'S KITCHEN
+            </b>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
